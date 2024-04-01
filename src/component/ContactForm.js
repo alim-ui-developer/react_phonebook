@@ -3,16 +3,9 @@ import { Button, Form } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 
 const PROFILE_IMAGE_ARR = [
-  "http://www.pororopark.com/images/sub/circle_pororo.png", 
-  "http://www.pororopark.com/images/sub/circle_crong.png",
-  "http://www.pororopark.com/images/sub/circle_petty.png",
-  "http://www.pororopark.com/images/sub/circle_loppy.png",
-  "http://www.pororopark.com/images/sub/circle_harry.png",
-  "http://www.pororopark.com/images/sub/circle_poby.png", 
-  "http://www.pororopark.com/images/sub/circle_eddy.png",
-  "http://www.pororopark.com/images/sub/circle_rody.png",
-  "http://www.pororopark.com/images/sub/circle_tong.png",
-  "http://www.pororopark.com/images/sub/circle_pipi.png"
+  "https://i.namu.wiki/i/y7qTOOIL6nIa2cXybk511OASqwAGMgZiNjh6CtErz0ust7MPJaztzSYiypYevehQOjdJc-TQvTctUk7N629V7A.webp", 
+  "https://i.namu.wiki/i/jtQmllGb5XztKurgXD3gIH-o874OJN_LrCr37LiIhB6zhWKhWOR6Fy-VeBWtTlJtRXnvfgNkoBq4x__gGM6F6w.webp",
+  "https://i.namu.wiki/i/kihxAyVbq3aEhemgBPUvth1NHcOlSD0dFr5YNf6OcHrPJtDY62Epb2tvRWksjpNvB3XrhlL__1O6nWnZDmcJcw.webp",
 ]
 
 const ContactForm = () => {
