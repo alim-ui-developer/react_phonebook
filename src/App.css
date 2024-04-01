@@ -1,0 +1,109 @@
+.App{
+  .title{
+    font-size:2.5rem;
+    line-height:1;
+    font-weight:800;
+    text-align:center;
+    margin:50px 0;
+  }
+  .contactForm{
+    .row{
+      display:flex;
+      align-items: center;
+      margin:0;
+      label{
+        width:20%;
+        margin:0;
+        padding:0;
+      }
+      input{
+        width:80%;
+        height:45px;
+        padding:5px 15px;
+        border-radius:0;
+      }
+    }
+
+    .btn_add{
+      width:100%;
+    }
+
+    .profileImageRadioButtons{
+      display:flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom:30px;
+      div{
+        position:relative;
+        width:100px;
+        height:100px;
+        margin:5px;
+        label {
+          img{
+            width:100%;
+            height:auto;
+          }
+        }
+        input[type="radio"] {
+          position:absolute;
+          top:0;
+          left:0;
+          width:100px;
+          height:100px;
+          appearance: none;
+          border-radius: 50%;
+          cursor: pointer;
+          overflow:hidden;
+          &:checked {
+            border: 10px solid #0d6efd;
+          }
+        }
+      }
+    }
+
+  }
+  .searchBox{
+    div{
+      margin:0;
+      padding:0;
+    }
+    input{
+      border-radius:0;
+    }
+    button{
+      display:block;
+      width:100%;
+      border-radius:0;
+    }
+  }
+  .contactItem{
+    display:flex;
+    align-items: center;
+    border:1px solid #e9e9e9;
+    margin-bottom:5px;
+    padding:15px 20px;
+    box-sizing:border-box;
+    div{
+      padding:0;
+    }
+    .imageBox{
+      img{
+        display:block;
+        width:100%;
+        height:auto;
+      }
+    }
+    .textBox{
+      padding-left:5%;
+      box-sizing: border-box;
+      h3{
+        line-height:1;
+        margin:0;
+      }
+      p{
+        margin:5px 0 0 0;
+      }
+    }
+  }
+}
