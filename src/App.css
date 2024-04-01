@@ -45,8 +45,8 @@
           height:100px;
           img{
             display:block;
-            width:100%;
-            height:auto;
+            width:100px;
+            height:100px;
           }
         }
         input[type="radio"] {
